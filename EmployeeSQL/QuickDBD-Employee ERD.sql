@@ -42,7 +42,7 @@ CREATE TABLE Department_Manager (
 );
 
 CREATE TABLE Salaries (
-    emp_no INTERGER   NOT NULL,
+    emp_no INTEGER   NOT NULL,
     salary MONEY   NOT NULL,
     CONSTRAINT pk_Salaries PRIMARY KEY (
         emp_no
